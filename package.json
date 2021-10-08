@@ -1,0 +1,29 @@
+{
+  "name": "gpt2-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osirisguitar/gpt2-generator.git"
+  },
+  "author": "Anders Norrback Bornholm",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/osirisguitar/gpt2-generator/issues"
+  },
+  "homepage": "https://github.com/osirisguitar/gpt2-generator#readme",
+  "dependencies": {
+    "@koa/router": "10.1.1",
+    "koa": "2.13.3",
+    "koa-bodyparser": "4.3.0",
+    "python-shell": "3.0.0"
+  }
+}
